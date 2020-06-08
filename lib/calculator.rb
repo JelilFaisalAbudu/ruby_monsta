@@ -4,16 +4,16 @@
 # A simpl calculator class common arithmetics
 
 class Calculator
-  def sum(num, other)
+  def plus(num, other)
     num + other
   end
 
   def add_one(num)
-    sum(num, 1)
+    plus(num, 1)
   end
 
   def add_two(num)
-    sum(num, 2)
+    plus(num, 2)
   end
 end
 
